@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Philosopher-Bold.ttf",
+      "sha1": "31b8bc20d14b922ba8da54416f85a269d281d484"
+    },
+    {
+      "path": "src/assets/fonts/Philosopher-Regular.ttf",
+      "sha1": "c2fa6e9b227cedd373083eb22bdf7e496b4e7831"
+    }
+  ]
+}
