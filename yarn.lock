@@ -2462,7 +2462,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native-stack@npm:^6.9.13":
+"@react-navigation/native-stack@npm:^6.11.0":
   version: 6.11.0
   resolution: "@react-navigation/native-stack@npm:6.11.0"
   dependencies:
@@ -2478,7 +2478,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:^6.1.7":
+"@react-navigation/native@npm:^6.1.18":
   version: 6.1.18
   resolution: "@react-navigation/native@npm:6.1.18"
   dependencies:
@@ -2502,7 +2502,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reduxjs/toolkit@npm:^2.2.6":
+"@reduxjs/toolkit@npm:^2.3.0":
   version: 2.3.0
   resolution: "@reduxjs/toolkit@npm:2.3.0"
   dependencies:
@@ -6740,23 +6740,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lottie-react-native@npm:^6.7.2":
-  version: 6.7.2
-  resolution: "lottie-react-native@npm:6.7.2"
+"lottie-react-native@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "lottie-react-native@npm:7.1.0"
   peerDependencies:
-    "@dotlottie/react-player": ^1.6.1
-    "@lottiefiles/react-lottie-player": ^3.5.3
+    "@lottiefiles/dotlottie-react": ^0.6.5
     react: "*"
     react-native: ">=0.46"
     react-native-windows: ">=0.63.x"
   peerDependenciesMeta:
-    "@dotlottie/react-player":
-      optional: true
-    "@lottiefiles/react-lottie-player":
+    "@lottiefiles/dotlottie-react":
       optional: true
     react-native-windows:
       optional: true
-  checksum: 8b14ca10f4f0e75505ee5485b47c31db2146baea1634e66f0d485abb8a44ba2019930239970015cedaad627e306828be977b4797256aa2cc143b476ed31585fa
+  checksum: ee8d5661db33701b6f721271e385a8489c946de01d4488314e4cdfb7d3b4d79dcb9e155dda281a53bf3730497efd638da88f7ab2494b5f6e5014ea40bf3cc146
   languageName: node
   linkType: hard
 
@@ -6790,25 +6787,25 @@ __metadata:
     "@react-native/eslint-config": 0.76.1
     "@react-native/metro-config": 0.76.1
     "@react-native/typescript-config": 0.76.1
-    "@react-navigation/native": ^6.1.7
-    "@react-navigation/native-stack": ^6.9.13
-    "@reduxjs/toolkit": ^2.2.6
+    "@react-navigation/native": ^6.1.18
+    "@react-navigation/native-stack": ^6.11.0
+    "@reduxjs/toolkit": ^2.3.0
     "@types/react": ^18.2.6
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.6.3
     eslint: ^8.19.0
     jest: ^29.6.3
-    lottie-react-native: ^6.7.2
+    lottie-react-native: ^7.1.0
     prettier: 2.8.8
     react: 18.3.1
     react-native: 0.76.1
     react-native-heroicons: ^4.0.0
     react-native-linear-gradient: ^2.8.3
-    react-native-mmkv: ^2.12.2
+    react-native-mmkv: ^3.1.0
     react-native-modal: ^13.0.1
     react-native-responsive-fontsize: ^0.5.1
-    react-native-safe-area-context: ^4.9.0
-    react-native-screens: ^3.29.0
+    react-native-safe-area-context: ^4.14.0
+    react-native-screens: ^3.35.0
     react-native-sound-player: ^0.14.3
     react-native-svg: ^15.8.0
     react-redux: ^9.1.2
@@ -8101,13 +8098,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-mmkv@npm:^2.12.2":
-  version: 2.12.2
-  resolution: "react-native-mmkv@npm:2.12.2"
+"react-native-mmkv@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "react-native-mmkv@npm:3.1.0"
   peerDependencies:
     react: "*"
-    react-native: ">=0.71.0"
-  checksum: 8c79504a89fefd7f9c290a4a6bb24f1f9ef9e2a69d20d0f7d882b89f3943556e9c919c9d46583e44ab698f25213489277fccb6d4c856cce310267c5f907388f1
+    react-native: "*"
+  checksum: 0cba51a0b4d830f2304219f58ce016f5e0635953cda0900c45cdc01e2dbd04326a03451e9001bc61edd2af9f8539d6a1e9afe67e4b9417e5d45c803ef938ce35
   languageName: node
   linkType: hard
 
@@ -8135,7 +8132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^4.9.0":
+"react-native-safe-area-context@npm:^4.14.0":
   version: 4.14.0
   resolution: "react-native-safe-area-context@npm:4.14.0"
   peerDependencies:
@@ -8145,7 +8142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:^3.29.0":
+"react-native-screens@npm:^3.35.0":
   version: 3.35.0
   resolution: "react-native-screens@npm:3.35.0"
   dependencies:
